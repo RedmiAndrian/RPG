@@ -9,25 +9,58 @@ script = ExtResource( 1 )
 position = Vector2( 512, 304 )
 
 [node name="goodGuys" type="Node2D" parent="."]
-position = Vector2( 64, 69 )
+position = Vector2( 1, 6 )
 
 [node name="goodGuys_1" type="Sprite" parent="goodGuys"]
-position = Vector2( 33, 68 )
+position = Vector2( 85, 70 )
 
 [node name="goodGuys_2" type="Sprite" parent="goodGuys"]
-position = Vector2( 34, 221 )
+position = Vector2( 91, 199 )
 
 [node name="goodGuys_3" type="Sprite" parent="goodGuys"]
-position = Vector2( 847, 62 )
+position = Vector2( 914, 64 )
 
 [node name="goodGuys_4" type="Sprite" parent="goodGuys"]
-position = Vector2( 853, 218 )
+position = Vector2( 934, 223 )
 
 [node name="badGuys" type="Node2D" parent="."]
-position = Vector2( 381, 67 )
+position = Vector2( 3, 5 )
 
 [node name="badGuys_1" type="Sprite" parent="badGuys"]
-position = Vector2( 96, 69 )
+position = Vector2( 469, 75 )
 
 [node name="badGuys_2" type="Sprite" parent="badGuys"]
-position = Vector2( 106, 188 )
+position = Vector2( 481, 167 )
+
+[node name="hud" type="Node2D" parent="."]
+position = Vector2( 0, 6 )
+
+[node name="label_1" type="Label" parent="hud"]
+margin_left = 114.0
+margin_top = 416.0
+margin_right = 154.0
+margin_bottom = 430.0
+
+[node name="label_2" type="Label" parent="hud"]
+margin_left = 810.0
+margin_top = 380.0
+margin_right = 850.0
+margin_bottom = 394.0
+
+[node name="label_3" type="Label" parent="hud"]
+margin_left = 95.0
+margin_top = 490.0
+margin_right = 135.0
+margin_bottom = 504.0
+
+[node name="label_4" type="Label" parent="hud"]
+margin_left = 858.0
+margin_top = 479.0
+margin_right = 898.0
+margin_bottom = 493.0
+
+[node name="main_label" type="Label" parent="hud"]
+margin_left = 389.0
+margin_top = 24.0
+margin_right = 429.0
+margin_bottom = 38.0
